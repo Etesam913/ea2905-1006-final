@@ -16,8 +16,8 @@ app = Flask(__name__)
 def hello():
     return render_template("index.html")
 
-@app.route("/about")
-def aboutPage():
+@app.route("/assignments")
+def assignments():
     return "about"
 
 #start the server
