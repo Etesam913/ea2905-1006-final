@@ -17,6 +17,10 @@ body{
   }
 }
 
+nav{
+  margin-bottom: 6px;
+}
+
 .small-text{
   font-size: 1.35rem;
 }
