@@ -1,4 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 body{
+  animation-name: fadeIn;
+  animation-duration: .5s; 
+  animation-iteration-count: 1;
   font-family: 'Playfair Display', serif;
+}
+
+@keyframes fadeIn{
+  0%{
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.small-text{
+  font-size: 1.35rem;
 }

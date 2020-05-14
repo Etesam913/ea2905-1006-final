@@ -18,7 +18,7 @@ def hello():
 
 @app.route("/assignments")
 def assignments():
-    return "about"
+    return render_template("assignments.html")
 
 #start the server
 if __name__ == "__main__":
